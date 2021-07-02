@@ -1,5 +1,5 @@
 import React from "react";
-import "./App.css";
+import "./App.scss";
 import Routes from "./routes";
 import { ToastContainer } from "react-toastify";
 import { PersistGate } from "redux-persist/es/integration/react";

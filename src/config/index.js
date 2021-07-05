@@ -2,7 +2,7 @@ import { applyMiddleware, createStore, compose } from "redux";
 import { persistStore } from "redux-persist";
 import { composeWithDevTools } from "redux-devtools-extension";
 import thunk from "redux-thunk";
-import reducers from "../reducers";
+import reducers from "../redux";
 import { routerMiddleware } from "connected-react-router";
 import logger from "redux-logger";
 

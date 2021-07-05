@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Row, Col, ListGroup, ListGroupItem } from "reactstrap";
-import { printNumber } from "../actions/history";
+import { printNumber } from "../redux/history/action";
 
 export default ({ history, match }) => {
   let [numbers, setNumber] = useState('');

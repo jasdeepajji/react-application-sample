@@ -1,0 +1,2 @@
+export const INPUT_HISTORY = "INPUT_HISTORY";
+export const DELETE_RECORD = "DELETE_RECORD";
